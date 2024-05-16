@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text and Image Layout</title>
+    <style>
+        .container {
+            display: flex;
+            align-items: center; /* Center items vertically */
+            justify-content: space-between; /* Space between items */
+            padding: 20px;
+            background-color: #f0f0f0;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        .text {
+            flex: 1; /* Take remaining space */
+            margin-right: 20px; /* Add some space between text and image */
+        }
+        .image {
+            flex-shrink: 0; /* Do not shrink image */
+            width: 200px; /* Set image width */
+            height: auto; /* Maintain aspect ratio */
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for effect */
+            padding: 10px;
+            margin-right: 20px;
+        }
+        h2{
+            color: green;
+            font-size: 27px;
+            text-decoration: underline;
+        }
+        .footer {
+            background-color: #000;
+            color: #fff; 
+            padding: 20px;
+            text-align: center;
+            height:20%;
+            font-size: 17px;
+        }
+    </style>
+</head>
+<body>
+    <h1><center>PROCESS TO JOIN INTERESTED DOMAINS</center></h1>
+   
+    <div class="container">
+        <img src="./engineer.jpeg" alt="Image" class="image">
+        <div class="text">
+            <h2>ENGINEERING</h2>
+            <p>The first step is to successfully complete 12th Science stream schooling (with Mathematics or relevant subjects) from a recognized board. Diploma in Engineering qualification holders are also eligible to pursue Degree Engineering course (relevant branch).</p>
+            <P>ust passing 12th standard is not enough to secure admission in reputed Engineering institutes. For that, one must also appear for and score valid marks in relevant entrance exams. JEE, State-wise CETs, Institute-wise CETs are examples of Engineering entrance tests.</P>
+            <p><strong>Engineering colleges lists:</strong><br>
+                
+                1. Indian Institutes of Technology (IITs) - Spread across various cities like Delhi, Mumbai, Chennai, etc.<br>
+                2.National Institutes of Technology (NITs) - Located in different states including Warangal, Surathkal, Trichy, etc.<br>
+                3.Birla Institute of Technology and Science (BITS Pilani) - Pilani, Goa, and Hyderabad campuses.<br>
+                4.Indian Institute of Information Technology (IIITs) - Like IIIT Hyderabad, IIIT Bangalore, etc.<br>
+                5.Vellore Institute of Technology (VIT) - Vellore and Chennai campuses.<br>
+                6.College of Engineering, Pune (COEP)<br>
+                7.Delhi Technological University (DTU)<br>
+                8.Jadavpur University, Faculty of Engineering and Technology, Kolkata</p>
+        </div>
+        <!-- <img src="path_to_your_image.jpg" alt="Image" class="image"> -->
+    </div>
+    <div class="container">
+        <div class="text">
+            <h2>ARTS</h2>
+            <p>Arts stream is a stream full of opportunities. Although there is a perception that the Arts stream is for weak students, this is not true. On the contrary, Arts provide a lot of career opportunities after graduation. B.A. (Bachelor of Arts) is the most popular course among the top Arts courses after 12th. But there are many other career options after 12th Arts available which have better career options for students. Choosing the best course after class 12th Arts stream is the main decision of one’s career. Arts and Humanities are considered the same, but Arts has two subdomains- Humanities and Fine Arts.</p>
+            <p>Enterance exams for Arts - DUET,KIITEE,GBPUAT,TISSNET etc..</p>
+            <p><strong>Arts colleges list:</strong>    <br>1. Lady Shri Ram College for Women (LSR), Delhi<br>
+                2.St. Stephen's College, Delhi<br>
+                3.Loyola College, Chennai<br>
+                4.Presidency College, Kolkata<br>
+                5.Miranda House, Delhi<br>
+                6.St. Xavier's College, Mumbai<br>
+                7.Christ University, Bangalore<br>
+                8.Fergusson College, Pune<br>
+                9.Sophia College for Women, Mumbai</p>
+        </div>
+        <img src="./scienceimg.jpeg" alt="Image" class="image">
+    </div>
+    <div class="container">
+        <img src="./scienceimgg.jpeg" alt="Image" class="image">
+        <div class="text">
+            <h2>SCIENCE</h2>
+            <P>To be eligible, candidates must have passed Class 12th in the Science stream with PCM (Physics, Chemistry, Mathematics) or PCB (Physics, Chemistry, Biology). Students looking forward to a career in Science have a wide range of options at Diploma, Certificate, UG (undergraduate) PG (postgraduate)</P>
+            <p>Enterance exams for science - CUET UG, CUET PG, IIT JAM , MCAER CET</p>
+            <p><strong>Science colleges list: </strong><br>
+                1.Indian Institutes of Technology (IITs) - Spread across various cities like Delhi, Mumbai, Chennai <br>
+                2.National Institutes of Technology (NITs) - Located in different states including Warangal, Surathkal, Trichy <br>
+                3.Birla Institute of Technology and Science (BITS Pilani) - Pilani, Goa, and Hyderabad campuses.<br>
+                4.Indian Institute of Information Technology (IIITs) - Like IIIT Hyderabad, IIIT Bangalore<br>
+                5.Vellore Institute of Technology (VIT) - Vellore and Chennai campuses.<br>
+                6.College of Engineering, Pune (COEP)<br>
+                7.Delhi Technological University (DTU)<br>
+                8.Jadavpur University, Faculty of Engineering and Technology, Kolkata<br>
+                9.Anna University, College of Engineering, Guindy, Chennai<br>
+                10.Manipal Institute of Technology, Manipal<br>
+                </p>
+        </div>
+        <!-- <img src="path_to_your_image.jpg" alt="Image" class="image"> -->
+    </div>
+    <div class="container">
+        <div class="text">
+            <h2>MANAGEMENT</h2>
+            <p>Bachelor of Business Administration is a UG program offered with a course duration of 3 years. The syllabus covers Management, Finance, Hotel Operation, Food and Beverage. Students with a minimum of 55% in class 12 can take the qualifying entrance exams like AIMA UGAT, NCHM JEE, CUET etc to get admissions.</p>
+            <p> <strong>Management Colleges List:</strong><br>
+                1.Indian Institutes of Management (IIMs) - Located in cities like Ahmedabad, Bangalore, Kolkata, Lucknow, and others.<br>
+                2.Xavier School of Management (XLRI), Jamshedpur<br>
+                3.Indian School of Business (ISB), Hyderabad <br>
+                4.Faculty of Management Studies (FMS), Delhi University<br>
+                5.S.P. Jain Institute of Management and Research (SPJIMR), Mumbai<br>
+                6.Indian Institute of Foreign Trade (IIFT), Delhi and Kolkata</p>
+    
+        </div>
+        <img src="./manage.jpeg" alt="Image" class="image">
+    </div>
+    <div class="container">
+        <img src="./commerceimg.jpeg" alt="Image" class="image">
+        <div class="text">
+            <h2>COMMERCE</h2>
+           <p>After completing 12th commerce, students can pursue courses like BCom, BBA, and BMS. After completing their graduation, students can also pursue post-graduation courses like M.Com, MBA, and CA. Students can also pursue professional courses like CA or CS after completing their graduation.</p>
+           <p>For commerce students, the best entrance exams depend on their career goals. Notable exams include CA CPT, CSEET, NMIMS-NPAT, DU JAT, SET, IPU CET, and BHU UET, each catering to different fields within commerce</p>
+           <p>Commerse colleges list: <br>
+
+            1.Shri Ram College of Commerce (SRCC), Delhi<br>
+            2.Loyola College, Chennai<br>
+            3.St. Xavier's College, Mumbai<br>
+            4.Hindu College, Delhi<br>
+            5.Christ University, Bangalore<br>
+            6.Lady Shri Ram College for Women (LSR), Delhi<br>
+            7.St. Joseph's College of Commerce, Bangalore<br>
+            8.Narsee Monjee College of Commerce and Economics (NM College), Mumbai<br>
+            9.Hansraj College, Delhi<br>
+            10.Symbiosis College of Arts and Commerce, Pune</p>
+        </div>
+
+    </div>
+    <div class="container">
+        <div class="text">
+            <h2>EDUCATION</h2>
+<P>This course is offered at the diploma level, undergraduate and postgraduate level and they are DEd (Diploma in Education), DLEd (Diploma in Elementary Education), BEd, BA B. Ed, BElEd, MEd (Master of Education), BPEd (Bachelor of Physical Education), MPEd (Master of Physical Education).</P>  
+<p>Some of the popular and commonly accepted entrance exams include CUET, CTET, IPU CET, AMU Entrance Exam, RIE CEE, and UP B.Ed JEE Entrance Exam. Some of the top colleges for pursuing a B.Ed include Delhi University, Banaras Hindu University, Amity University, Jadavpur University, and IGNOU.</p> 
+<p><strong>Education colleges list:</strong><br>
+    1.Tata Institute of Social Sciences (TISS), Mumbai<br>
+    2.Jamia Millia Islamia, Faculty of Education, Delhi<br>
+    3.Lady Shri Ram College for Women (LSR), Department of Elementary Education, Delhi<br>
+    4.Central Institute of Education (CIE), University of Delhi, Delhi<br>
+    5.Department of Education, University of Mumbai, Mumbai<br>
+    6.Department of Education, University of Calicut, Calicut</p> 
+        </div>
+        <img src="./educa.jpeg" alt="Image" class="image">
+    </div>
+
+    <div class="container">
+        <img src="./medicalimg.jpeg" alt="Image" class="image">
+        <div class="text">
+            <h2>MEDICAL</h2>
+            <p>MBBS course duration is 5.5 years with 5 years of academic study and 6 months of internship. An MBBS course is an undergraduate medical degree awarded to students who have completed their training in the field of medicine and surgery.</p>
+            <p>NEET is the entrance examination for admission to undergraduate medical courses (MBBS/BDS) in various medical colleges across the country.
+                However, there are alternative medical careers available that do not require clearing NEET. These include pursuing courses such as Bachelor of Pharmacy (B.Pharm), Bachelor of Science in Nursing (B.Sc Nursing), Bachelor of Physiotherapy (BPT), Bachelor of Occupational Therapy (BOT), Bachelor of Optometry (B.Optom), among others. These courses lead to careers in pharmaceuticals, nursing, physiotherapy, occupational therapy, optometry, and related fields.</p>
+                <p><strong>Medical colleges list:</strong><br>
+                    1.Christian Medical College (CMC), Vellore<br>
+                    2.Maulana Azad Medical College (MAMC), Delhi<br>
+                    3.Armed Forces Medical College (AFMC), Pune<br>
+                    4.Grant Medical College (GMC), Mumbai<br>
+                    5.King George's Medical University (KGMU), Lucknow<br>
+                    6.Jawaharlal Institute of Postgraduate Medical Education and Research (JIPMER), Puducherry</p>
+        
+        </div>
+
+    </div>
+    <div class="container">
+        <div class="text">
+            <h2>DESIGN</h2>
+            <p>You can pursue a bachelor's degree in Design, Industrial Design, Graphic Design, or Interaction Design and then a master's degree. You can opt for an entry-level job immediately after your bachelor's degree and then go for a master's degree for higher positions.</p>
+            <p>Some of the top design schools in the country include NIFT Delhi, NIFT Kolkota, NIFT Bangalore, IIT Bombay, IIT Delhi, etc. Admission to these institutes is done based on entrance exams like NIFT, NID DAT, UCEED, and CEED.</p>
+            <p> <strong>Design colleges List:</strong><br>
+                1.School of Visual Arts (SVA)<br>
+                2.Pratt Institute<br>
+                3.Savannah College of Art and Design (SCAD)<br>
+                4.California Institute of the Arts (CalArts)<br>
+                5.ArtCenter College of Design<br>
+                6.Central Saint Martins (CSM)<br>
+                7.Royal College of Art (RCA)
+            </p>
+</div>
+        <img src="./designimg.jpeg" alt="Image" class="image">
+    </div>
+
+    <div class="container">
+        <img src="./pharmacyimg.jpeg" alt="Image" class="image">
+        <div class="text">
+            <h2>PHARMACY</h2>
+            <p>Pharmacy is the science of preparing and dispensing medical drugs. The study of pharmacy involves chemistry and pharmaceutics, among other specialist topics. A pharmacist is a licensed healthcare professional who specialises in providing information about different medication and methods of treatment to patients.</p>
+            <p>Enterance exams for Arts - NEET, MHT CET, CUET, AP EAMCET, TS EAMCET, KCET, JEE Main, GUJCET, KEAM, etc.</p>
+            <p> <strong>Pharmacy colleges list:</strong><br>
+                1.University of Texas at Austin - College of Pharmacy<br>
+                2.University of Washington - School of Pharmacy<br>
+                3.Purdue University - College of Pharmacy<br>
+                4.University of Southern California (USC) - School of Pharmacy<br>
+                5.University of Minnesota - College of Pharmacy<br>
+                6.Ohio State University - College of Pharmacy<br>
+                7.University of Illinois at Chicago - College of Pharmacy
+            </p>
+        
+        </div>
+        </div>
+        <footer class="footer">
+            <h5>About Us</h5>
+            <p>We are dedicated to helping students explore career options and make informed choices. Our platform provides guidance, resources, and support to help you navigate your educational journey.</p>
+            <p>&copy; 2024 Student Course Explorer. All rights reserved.</p>
+
+        </footer>
+</body>
+
+</html>
