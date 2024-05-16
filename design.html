@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+         .bg{
+            height:135px;
+            width:70%;
+            background-color:gray;
+            margin:0 auto;
+        }
+       
+      
+        body {
+            background-color:lightgrey;
+            font-family: 'Roboto', 'Open Sans', sans-serif;
+            font-weight: 800;
+            font-size: 14px;
+        }
+        .login-container {
+            width: 80%;
+            height:80%;
+            padding: 30px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 0 auto;
+            margin-top: 30px;
+            background-color: #fff7f9;
+        }
+        .mb-4{
+            font-size: 30px;
+            color: #3498db; 
+            font-weight:600;
+            text-align:center;
+            margin-top:-10px;
+         }
+         #st{color: blueviolet;
+            box-shadow:5px 5px 5px green;
+        }
+        h2 p{
+            font-size: 25px;
+            color: #333333;
+            text-align: center;
+        }
+        h3{
+            text-align:center;
+        }
+        .table-container {
+         max-height: 200px; 
+         overflow-y: auto;
+        }
+        table {
+        width: 100%;
+       
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+            font-weight: 500;
+        }
+        th{
+          font-weight: bolder;
+        }
+
+        thead th {
+            position: sticky;
+            top: 0;
+            background-color: #f2f2f2;
+        }
+        h2 {
+  text-align: center;
+  padding: 16px;
+  margin: 0;
+}
+
+.lineUp {
+  animation: 2s anim-lineUp ease-out ;
+}
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(80%);
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+.footer {
+            background-color: #000;
+            color: #fff; 
+            padding: 20px;
+            text-align: center;
+            height:20%;
+            font-weight: 400;
+            font-size: 16px;
+        }
+      
+    </style>
+</head>
+<body>
+<div>
+  <h1 style="text-align: center; font-weight: 600; font-style: oblique; margin-top: 20px;font-family: 'Times New Roman', Times, serif;">DESIGN</h1>
+</div>
+<div class="div1">
+        <div class="login-container">
+            <h2 class="mb-4"><strong>LIST OF <span id="st">Courses</strong></span>  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="black" class="bi bi-book-fill" viewBox="0 0 16 16">
+              <path d="M8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
+            </svg></h2>
+            <!-- <h3><strong>List of courses</strong></h3> -->
+            <div class="table-container">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>SNO</th>
+                            <th>COURSE</th>
+                            <th>BRANCH</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                  
+                            <tr >
+                                <td>1</td>
+                                <td>Diploma in Fashion Design</td>
+                                <td></td>
+                            </tr>
+                            <tr >
+                              <td>2</td>
+                              <td>Diploma in interior Design</td>
+                              <td></td>
+                          </tr>
+                          <tr >
+                            <td>3</td>
+                            <td>Bachelor of Design(B.Des)</td>
+                            <td>Fashion Design</td>
+                        </tr>
+                        <tr >
+                          <td>4</td>
+                          <td>Bachelor of Science(B.Sc)</td>
+                          <td>Fashion Design</td>
+                      </tr>
+                      <tr >
+                        <td>5</td>
+                        <td>Bachelor of Science(B.Sc)</td>
+                        <td>Interior Design</td>
+                    </tr>
+                    <tr >
+                      <td>6</td>
+                      <td>Advanced Diploma in Interior Design</td>
+                      <td></td>
+                  </tr>
+                  <tr >
+                    <td>7</td>
+                    <td>Advanced Diploma in Fashion Design</td>
+                    <td></td>
+                </tr>
+                <tr >
+                  <td>8</td>
+                  <td>Certificate Course in Fashion Design</td>
+                  <td>Imaging Technology Radiography</td>
+              </tr>
+              <tr >
+                <td>9</td>
+                <td>Diploma in Textile Design</td>
+                <td></td>
+            </tr>
+            <tr >
+              <td>10</td>
+              <td>Bachelor of Design(B.Des)</td>
+              <td>Product Design</td>
+          </tr>
+          <tr >
+            <td>11</td>
+            <td>Bachelor of Design(B.Des)</td>
+            <td>Textile Design</td>
+        </tr>
+        <tr >
+          <td>12</td>
+          <td>Bachelor of Design(B.Des)</td>
+          <td>Communication Design</td>
+      </tr>
+      <tr >
+        <td>13</td>
+        <td>Bachelor of Arts(BA)</td>
+        <td> Fashion Design</td>
+    </tr>
+    <tr >
+      <td>14</td>
+      <td>Bachelor of Design(B.Des)</td>
+      <td>Fashion Communication</td>
+  </tr>
+  <tr >
+    <td>15</td>
+    <td>Bachelor of Design(B.Des)</td>
+    <td>Fashion and Apparel Design</td>
+</tr>
+<tr >
+  <td>16</td>
+  <td>Bachelor of Design(B.Des)</td>
+  <td>Graphic Design</td>
+</tr>
+<tr >
+  <td>17</td>
+  <td>Bachelor of Design(B.Des)</td>
+  <td>Industrial Design</td>
+</tr>
+<tr >
+  <td>18</td>
+  <td>Certificate in Auto CAD</td>
+  <td></td>
+</tr>
+<tr >
+  <td>19</td>
+  <td>Bachelor of Design(B.Des)</td>
+  <td>Jewellery Design</td>
+</tr>
+                    </tbody>
+                </table>
+              
+            </div>
+            <p style="font-size: small" >
+              There are 30 courses which belong to Design and which a person is eligible to pursue after Class 12th. They can get admission in all the affiliated Universities spread across the states of Delhi, Maharashtra, Tamil Nadu, Andhra Pradesh, Telangana, Punjab, Madhya Pradesh, Gujarat, etc. There are 2484 colleges offering Design that a student can take admission in spread throughout India.</p>    </div>
+    <div class="line" style="margin-top: 30px;">
+      <p class='lineUp' style="font-size: 15px; text-align: center; padding: 20px; font-weight: 300;">
+        A designer has the power to make imagination come true. Design aspirants will benefit from taking designated classes to learn about the principles of the craft and how they relate to different sectors. The applicant who pursues a design degree will have access to a wide range of prospects. Some of the disciplines that students can pursue include history, sketching, photography, and modelling.</p> 
+        </div>
+        <footer class="footer">
+          <h5>About Us</h5>
+          <p>We are dedicated to helping students explore career options and make informed choices. Our platform provides guidance, resources, and support to help you navigate your educational journey.</p>
+          <p>&copy; 2024 Student Course Explorer. All rights reserved.</p>
+    
+      </footer>
+      
+        
+</body>
+</html>

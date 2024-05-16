@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<style>
+    body{
+        background-color: honeydew;
+    }
+     h1 {
+            text-align: center;
+            background-image: linear-gradient(to right, #032e5b, #3e77f29e);
+            font-size: 60px;
+            margin-bottom: 30px; /* Added margin to separate heading from tiles */
+            color:white;
+            padding: 50px;
+            font-style: oblique;
+            font-family: 'Times New Roman', Times, serif;
+
+        }
+        .card {
+            background-color: rgba(128, 128, 128, 0.307);
+            text-align: center; /* Center card content */
+            margin-bottom: 20px; /* Added margin between cards */
+            padding: 20px; /* Added padding inside cards */
+            border-radius: 10px; /* Rounded corners for cards */
+            box-shadow: 0 10px 20px rgba(77, 199, 255, 0.4); /* Added shadow effect */
+            height: 500px;
+            width: 400px;
+        }
+      
+        .extra-spacing {
+            margin-top: 20px; 
+        }
+        .mt-4{
+            height: 500px;
+            width: 90%;
+            margin-left: 5%;
+           
+            
+
+        }
+        .mb-4:hover {
+            
+             box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            transform: scale(1.05);
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+            
+        }
+        .footer {
+            background-color: #000;
+            color: #fff; 
+            padding: 20px;
+            text-align: center;
+            height:20%;
+            margin-top: 80%;
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="heading">
+       
+        <h1 style="text-align: center;">Exploring Diverse Domains After 12th Grade</h1>
+    </div>
+    <div>
+        <h4 style="text-align: center; font-family: 'Times New Roman', Times, serif;">"Discover your passion, embrace endless possibilities, and chart your course towards a fulfilling career journey after completing 12th grade. From technology to arts, science to management, the world is your canvas to explore and excel."</h4>
+    </div><br>
+      <!-- Tiles Section -->
+      <div id="tiles-section" class="row mt-4">
+        <!-- Tile for Intermediate -->
+        <div id="intermediate-tile" class="col-md-4 mb-4">
+            <div class="card" style="background-color: rgba(128, 128, 128, 0.307);">
+                <img src="./engineering.jpg" class="card-img-top" alt="Intermediate" style="height: 50%;">
+                <div class="card-body">
+                    <h5 class="card-title">Engineering</h5>
+                    <p class="card-text"> Explore the world of innovation and problem-solving with diverse fields like mechanical, electrical, civil, and computer engineering.</p>
+                    <a href="engineering.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <!-- Tile for Polytechnique -->
+        <div id="polytechnique-tile" class="col-md-4 mb-4">
+            <div class="card" style="background-color: rgba(128, 128, 128, 0.307);">
+                <img src="./arts.jpg" class="card-img-top" alt="Polytechnique">
+                <div class="card-body">
+                    <h5 class="card-title">Arts</h5>
+                    <p class="card-text"> Unleash your creativity through various artistic expressions such as painting, sculpture, music, dance, and theater.
+                        </p>
+                    <a href="arts.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <!-- Tile for ITI -->
+        <div id="iti-tile" class="col-md-4 mb-4">
+            <div class="card" style="background-color: rgba(128, 128, 128, 0.307);">
+                <img src="./science.jpg" class="card-img-top" alt="ITI">
+                <div class="card-body">
+                    <h5 class="card-title">Science</h5>
+                    <p class="card-text">Dive into the realm of discovery and knowledge in disciplines like biology, chemistry, physics, astronomy, and environmental science.
+                    </p>
+                    <a href="science.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <!-- Tile for Vocational Courses -->
+        <div id="vocational-tile" class="col-md-4 mb-4">
+            <div class="card" style="background-color: rgba(128, 128, 128, 0.307);">
+                <img src="./management.jpeg" class="card-img-top" alt="Vocational Courses">
+                <div class="card-body">
+                    <h5 class="card-title">Management</h5>
+                    <p class="card-text">Develop leadership and organizational skills crucial for success in business, finance, marketing, human resources, and project management.
+                        <!-- Designed to prepare and allow learners with the technical skills needed for a certain job in the workplace.  -->
+                    </p>
+                    <a href="management.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <!-- Tile for Paramedical -->
+        <div id="paramedical-tile" class="col-md-4 mb-4">
+            <div class="card" style="background-color: rgba(128, 128, 128, 0.307);">
+                <img src="./commerce.jpg" class="card-img-top" alt="Paramedical">
+                <div class="card-body">
+                    <h5 class="card-title">Commerce</h5>
+                    <p class="card-text">
+                        Delve into the dynamics of trade, finance, accounting, economics, and entrepreneurship in the global business landscape.
+
+                    </p>
+                    <a href="commerce.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <div id="paramedical-tile" class="col-md-4 mb-4">
+            <div class="card" style="background-color: rgba(128, 128, 128, 0.307);">
+                <img src="./education.jpg" class="card-img-top" alt="Paramedical">
+                <div class="card-body">
+                    <h5 class="card-title">Education</h5>
+                    <p class="card-text">
+                        Shape future generations through teaching, curriculum development, educational psychology, counseling, and special education.
+                    </p>
+                    <a href="education.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <div id="paramedical-tile" class="col-md-4 mb-4">
+            <div class="card" style="background-color: rgba(128, 128, 128, 0.307);">
+                <img src="./medical.jpg" class="card-img-top" alt="Paramedical">
+                <div class="card-body">
+                    <h5 class="card-title">Medical</h5>
+                    <p class="card-text">
+                        Embrace the noble field of healthcare with specializations in medicine, nursing, pharmacy, dentistry, and allied health professions.
+                    </p>
+                    <a href="medical.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <div id="paramedical-tile" class="col-md-4 mb-4">
+            <div class="card" style="background-color: rgba(128, 128, 128, 0.307);">
+                <img src="./design.jpg" class="card-img-top" alt="Paramedical">
+                <div class="card-body">
+                    <h5 class="card-title">Design</h5>
+                    <p class="card-text">
+                        Blend creativity and functionality in areas such as graphic design, fashion design, interior design, product design, and user experience design.
+                    </p>
+                    <a href="design.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <div id="paramedical-tile" class="col-md-4 mb-4">
+            <div class="card" style="background-color: rgba(128, 128, 128, 0.307);">
+                <img src="./pharmacy.jpg" class="card-img-top" alt="Paramedical">
+                <div class="card-body">
+                    <h5 class="card-title">Pharmacy</h5>
+                    <p class="card-text">
+                        Explore the science and practice of pharmaceuticals, drug development, pharmacology, clinical pharmacy, and healthcare research.
+                    </p>
+                    <a href="pharmacy.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="footer">
+    <h5>About Us</h5>
+    <p>We are dedicated to helping students explore career options and make informed choices. Our platform provides guidance, resources, and support to help you navigate your educational journey.</p>
+    <p>&copy; 2024 Student Course Explorer. All rights reserved.</p>
+</footer>
+
+
+</body>
+</html>

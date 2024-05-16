@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commerce</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+         .bg{
+            height:135px;
+            width:70%;
+            background-color:gray;
+            margin:0 auto;
+        }
+       
+      
+        body {
+            background-color:lightgrey;
+            font-family: 'Roboto', 'Open Sans', sans-serif;
+            font-weight: 800;
+            font-size: 14px;
+        }
+        .login-container {
+            width: 80%;
+            height:80%;
+            padding: 30px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 0 auto;
+            margin-top: 30px;
+            background-color: #fff7f9;
+        }
+        .mb-4{
+            font-size: 30px;
+            color: #3498db; 
+            font-weight:600;
+            text-align:center;
+            margin-top:-10px;
+         }
+         #st{color: blueviolet;
+            box-shadow:5px 5px 5px green;
+        }
+        h2 p{
+            font-size: 25px;
+            color: #333333;
+            text-align: center;
+        }
+        h3{
+            text-align:center;
+        }
+        .table-container {
+         max-height: 200px; 
+         overflow-y: auto;
+        }
+        table {
+        width: 100%;
+       
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+            font-weight: 500;
+        }
+        th{
+          font-weight: bolder;
+        }
+
+        thead th {
+            position: sticky;
+            top: 0;
+            background-color: #f2f2f2;
+        }
+        h2 {
+  text-align: center;
+  padding: 16px;
+  margin: 0;
+}
+
+.lineUp {
+  animation: 2s anim-lineUp ease-out ;
+}
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(80%);
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+.footer {
+            background-color: #000;
+            color: #fff; 
+            padding: 20px;
+            text-align: center;
+            height:20%;
+            font-weight: 400;
+            font-size: 16px;
+        }
+      
+    </style>
+</head>
+<body>
+<div>
+  <h1 style="text-align: center; font-weight: 600; font-style: oblique; margin-top: 20px;font-family: 'Times New Roman', Times, serif;">COMMERCE</h1>
+</div>
+<div class="div1">
+        <div class="login-container">
+            <h2 class="mb-4"><strong>LIST OF <span id="st">Courses</strong></span>  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="black" class="bi bi-book-fill" viewBox="0 0 16 16">
+              <path d="M8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
+            </svg></h2>
+            <!-- <h3><strong>List of courses</strong></h3> -->
+            <div class="table-container">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>SNO</th>
+                            <th>COURSE</th>
+                            <th>BRANCH</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                  
+                            <tr >
+                                <td>1</td>
+                                <td>Bachelor of Commerce(B.Com)</td>
+                                <td>Computer Applications</td>
+                            </tr>
+                            <tr >
+                              <td>2</td>
+                              <td>Bachelor of Commerce(B.Com)</td>
+                              <td>Accounting and Finance</td>
+                          </tr>
+                          <tr >
+                            <td>3</td>
+                            <td>Bachelor of Commerce(B.Com)</td>
+                            <td>Corporate Secretaryship</td>
+                        </tr>
+                        <tr >
+                          <td>4</td>
+                          <td>Bachelor of Commerce(B.Com)</td>
+                          <td>Banking and Insurance</td>
+                      </tr>
+                      <tr >
+                        <td>5</td>
+                        <td>Bachelor of Commerce(B.Com)</td>
+                        <td>Finance</td>
+                    </tr>
+                    <tr >
+                      <td>6</td>
+                      <td>Bachelor of Commerce(B.Com)</td>
+                      <td>Taxation</td>
+                  </tr>
+                  <tr >
+                    <td>7</td>
+                    <td>Bachelor of Commerce(B.Com)</td>
+                    <td>Accountancy</td>
+                </tr>
+                <tr >
+                  <td>8</td>
+                  <td>Bachelor of Commerce(B.Com)</td>
+                  <td>Professional Accounting</td>
+              </tr>
+              <tr >
+                <td>9</td>
+                <td>Bachelor of Commerce(B.Com)</td>
+                <td>Professional</td>
+            </tr>
+            <tr >
+              <td>10</td>
+              <td>Bachelor of Commerce(B.Com)</td>
+              <td>Co-operation</td>
+          </tr>
+          <tr >
+            <td>11</td>
+            <td>Bachelor of Commerce(B.Com)</td>
+            <td>Banking Management</td>
+        </tr>
+        <tr >
+          <td>12</td>
+          <td>Bachelor of Commerce(B.Com)</td>
+          <td>Tax Procedure and practice</td>
+      </tr>
+      <tr >
+        <td>13</td>
+        <td>Bachelor of Commerce(B.Com)</td>
+        <td>computer science</td>
+    </tr>
+    <tr >
+      <td>14</td>
+      <td>Bachelor of Commerce(B.Com)</td>
+      <td>Taxation and Finance</td>
+  </tr>
+  <tr >
+    <td>15</td>
+    <td>Bachelor of Commerce(B.Com)</td>
+    <td>Marketing</td>
+</tr>
+<tr >
+  <td>16</td>
+  <td>Bachelor of Commerce(B.Com)</td>
+  <td>Information Technology</td>
+</tr>
+<tr >
+  <td>17</td>
+  <td>Bachelor of Commerce(B.Com)</td>
+  <td>Financial Markets</td>
+</tr>
+<tr >
+  <td>18</td>
+  <td>Bachelor of Commerce(B.Com)</td>
+  <td>Business Administration</td>
+</tr>
+<tr >
+  <td>19</td>
+  <td>Bachelor of Commerce(B.Com)</td>
+  <td>Accounting</td>
+</tr>
+<tr >
+  <td>20</td>
+  <td>Bachelor of Commerce(B.Com)</td>
+  <td>Foreign Trade Management</td>
+</tr>
+<tr >
+  <td>21</td>
+  <td>Bachelor of Commerce(B.Com)</td>
+  <td>e-commerce</td>
+</tr>
+<tr >
+  <td>21</td>
+  <td>Bachelor of Commerce(B.Com)</td>
+  <td>Economics</td>
+</tr>
+<tr >
+  <td>23</td>
+  <td>Bachelor of Commerce(B.Com)</td>
+  <td>Management Studies</td>
+</tr>
+<tr >
+  <td>24</td>
+  <td>Bachelor of Commerce(B.Com)</td>
+  <td>Statistics</td>
+</tr>
+<tr >
+  <td>25</td>
+  <td>Bachelor of Commerce(B.Com)</td>
+  <td>International Business</td>
+</tr>
+             
+                    </tbody>
+                </table>
+              
+            </div>
+            <p style="font-size: small" >
+              There are 53 courses which belong to Commerce and which a person is eligible to pursue after Class 12th. They can get admission in all the affiliated Universities spread across the states of Delhi, Maharashtra, Tamil Nadu, Andhra Pradesh, Telangana, Punjab, Madhya Pradesh, Gujarat, etc. There are 7431 colleges offering Commerce that a student can take admission in spread throughout India. </p>            <!-- <div class="d-flex">
+                <button type="submit" class="btn btn-primary" id="save" name="save" onclick="redirectToAccTypePage()"><strong>Ok</strong></button>
+            </div> -->
+        </div>
+    </div>
+    <div class="line" style="margin-top: 30px;">
+      <p class='lineUp' style="font-size: 15px; text-align: center; padding: 20px; font-weight: 300;">
+        Commerce is defined as the exchange of goods and services among individuals and business entities. In academics, Commerce is considered to be one of the most popular streams of education along with Science and Arts. Commerce deals with the various aspects of business, trade, accounting, financial information/transactions and merchandising. Commerce plays a significant role in the development of nations and its citizens by facilitating trade between nations or within the nation.</p>             
+         <p class="lineUp" style="font-size: 15px;text-align: center; padding: 15px; font-weight: 300;"> 
+          Commerce Syllabus consists of subjects such as accounting, taxation, banking, business law, etc. Commerce courses after the 12th cover an in-depth knowledge of topics such as banking, insurance, economics, etc. </p>  
+          </div>
+          <footer class="footer">
+            <h5>About Us</h5>
+            <p>We are dedicated to helping students explore career options and make informed choices. Our platform provides guidance, resources, and support to help you navigate your educational journey.</p>
+            <p>&copy; 2024 Student Course Explorer. All rights reserved.</p>
+        </footer>
+</body>
+</html>
