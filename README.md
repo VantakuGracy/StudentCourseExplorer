@@ -48,9 +48,9 @@ Additionally, students may struggle to find reliable reviews and ratings from pe
 
 **User-Friendly Interface**: Enjoy a seamless and intuitive browsing experience with our clean and responsive website design.
 
-**Screenshots:
+**Screenshots:**
 
-Storage Account**
+**Storage Account**
 
 ![ss5](https://github.com/VantakuGracy/StudentCourseExplorer/assets/116415341/e5f72708-f220-4fdf-a28e-f54e413801f9)
 
