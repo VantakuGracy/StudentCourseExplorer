@@ -34,7 +34,7 @@ Azure blob storage Storage account, Azure Backup service, Azure AI services chat
 
 Students at educational institutions often face challenges in finding and selecting the right courses to fulfill their academic and career goals.
 The process of course selection can be overwhelming due to the sheer number of available courses, varying course descriptions, and lack of consolidated information.
-Additionally, students may struggle to find reliable reviews and ratings from peers, making it difficult to gauge the quality and relevance of a course.
+Additionally, students may struggle to find reliable reviews and ratings from peers, making it difficult to gauge the quality and relevance of a course.The goal is to provide a comprehensive platform offering tailored advice, centralized information, skill development resources, job search tools, and continuous learning updates to empower users in their career journeys.
 
 
 
