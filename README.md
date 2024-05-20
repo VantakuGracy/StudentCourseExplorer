@@ -49,6 +49,7 @@ Additionally, students may struggle to find reliable reviews and ratings from pe
 **User-Friendly Interface**: Enjoy a seamless and intuitive browsing experience with our clean and responsive website design.
 
 **Screenshots:
+
 Storage Account**
 
 ![ss5](https://github.com/VantakuGracy/StudentCourseExplorer/assets/116415341/e5f72708-f220-4fdf-a28e-f54e413801f9)
@@ -104,5 +105,6 @@ Working Live Project Display:
 ![ss17](https://github.com/VantakuGracy/StudentCourseExplorer/assets/116415341/aaf827a1-9251-4191-9e5b-68453719a7b8)
 
 **Conclusion:**
+
 This is our website Student Course Explorer. Our mission is to empower students by providing a comprehensive, user-friendly platform that simplifies the process of course selection and enhances your educational experience after 12th standard. Explore your academic interests, plan your future, and achieve your learning goals with the Student Course Explorer. 
 
