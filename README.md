@@ -8,7 +8,7 @@ Whether you’re looking to enhance your skills, explore new subjects, or plan y
 **Project Details**
 
 Project Demo URL: https://careerguidance.z13.web.core.windows.net/
-Demo Video URL: 
+Demo Video URL: https://youtu.be/_kmBTmsKqzg
 GitHub Repository URL:
 Industry: Education
 
