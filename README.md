@@ -48,6 +48,8 @@ Additionally, students may struggle to find reliable reviews and ratings from pe
 
 **User-Friendly Interface**: Enjoy a seamless and intuitive browsing experience with our clean and responsive website design.
 
+**Mentoring and Networking Opportunities**: Connections with mentors and professional networks to provide guidance, advice, and potential job opportunities.
+
 **Screenshots:**
 
 **Storage Account**
