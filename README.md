@@ -19,7 +19,7 @@ Industry: Education
 
 V.Gracy (project management) :Manages the web development project. 
 
-Md.Amaan(Deployment) :Deployment and maintenance of project infrastructure. 
+Md Aman Uddin(Deployment) :Deployment and maintenance of project infrastructure. 
 
 K.Narendhar (Images, logos and chat bot questions) :Responsible for image searching, logo creation and chat bot questions.
 
