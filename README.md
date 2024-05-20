@@ -40,15 +40,15 @@ Additionally, students may struggle to find reliable reviews and ratings from pe
 
 # Features:
 
-# Extensive Course Listings: Browse through detailed descriptions of courses offered across various disciplines and institutions.
+ Extensive Course Listings: Browse through detailed descriptions of courses offered across various disciplines and institutions.
 
-# Personalized Recommendations: Get tailored course suggestions based on your interests, academic background, and career goals.
+ Personalized Recommendations: Get tailored course suggestions based on your interests, academic background, and career goals.
 
-# Student Reviews and Ratings: Read authentic reviews and ratings from fellow students to make informed decisions about which courses to take.
+ Student Reviews and Ratings: Read authentic reviews and ratings from fellow students to make informed decisions about which courses to take.
 
-# User-Friendly Interface: Enjoy a seamless and intuitive browsing experience with our clean and responsive website design.
+ User-Friendly Interface: Enjoy a seamless and intuitive browsing experience with our clean and responsive website design.
 
-# Mentoring and Networking Opportunities: Connections with mentors and professional networks to provide guidance, advices.
+ Mentoring and Networking Opportunities: Connections with mentors and professional networks to provide guidance, advices.
 
 # Screenshots:
 
