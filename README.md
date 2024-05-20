@@ -9,7 +9,7 @@ Whether you’re looking to enhance your skills, explore new subjects, or plan y
 
 Project Demo URL: https://careerguidance.z13.web.core.windows.net/
 Demo Video URL: https://youtu.be/_kmBTmsKqzg
-GitHub Repository URL:
+GitHub Repository URL: https://github.com/VantakuGracy
 Industry: Education
 
 **Roles and responsibilities**
