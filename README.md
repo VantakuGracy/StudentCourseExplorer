@@ -8,15 +8,21 @@ Whether you’re looking to enhance your skills, explore new subjects, or plan y
 **Project Details**
 
 Project Demo URL: https://careerguidance.z13.web.core.windows.net/
+
 Demo Video URL: https://youtu.be/_kmBTmsKqzg
+
 GitHub Repository URL: https://github.com/VantakuGracy/StudentCourseExplorer/tree/main
+
 Industry: Education
 
 **Roles and responsibilities**
 
 V.Gracy (project management) :Manages the web development project. 
+
 Md.Amaan(Deployment) :Deployment and maintenance of project infrastructure. 
+
 K.Narendhar (Images, logos and chat bot questions) :Responsible for image searching, logo creation and chat bot questions.
+
 E.Srivani (Documentation) :Responsible for managing the documentation process.
 
 **Azure services used:**
